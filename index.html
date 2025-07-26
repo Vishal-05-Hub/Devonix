@@ -1,66 +1,60 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Devonix.cloud - Build. Automate. Scale.</title>
-  <link rel="stylesheet" href="assets/css/styles.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <meta charset="UTF‑8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Devonix Cloud – A DevOps Community</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <div class="logo">Devonix<span>.cloud</span></div>
-    <nav>
-      <a href="#about">About Me</a>
-      <a href="#stack">Tech Stack</a>
-      <a href="#blogs">Blogs</a>
-      <a href="#contact">Contact</a>
-    </nav>
+  <header class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1>Devonix Cloud</h1>
+      <p>Infra • DevOps • Cloud (Azure • AWS • GCP)</p>
+      <a href="#tools" class="btn">Explore My Stack</a>
+    </div>
   </header>
 
-  <section class="hero">
-    <h1>Build. Automate. Scale.</h1>
-    <p>Cloud native DevOps solutions for modern engineers</p>
-    <a href="#blogs" class="btn">Read Blogs</a>
-  </section>
-
-  <section class="about" id="about">
-    <div class="avatar"></div>
-    <div class="content">
-      <h2>About Me</h2>
-      <p>I’m a Senior DevOps Engineer with primary expertise in Azure and experience in GCP and AWS. I specialize in scalable infrastructure, CI/CD pipelines, security, and Kubernetes (AKS).</p>
-      <p>This platform is my initiative to give back — delivering practical DevOps content, use-case-driven tutorials, and cloud solutions for real-world problems.</p>
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>I'm a Senior DevOps Engineer specializing in Azure, AWS, GCP, Terraform, GitHub Actions, Azure DevOps, Docker, Kubernetes (AKS), Infrastructure & Networking.</p>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-github"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+      <a href="mailto:contact@devonix.cloud"><i class="fas fa-envelope"></i></a>
     </div>
   </section>
 
-  <section class="stack" id="stack">
+  <section id="tools" class="section">
     <h2>Tech Stack</h2>
-    <div class="stack-grid">
-      <div class="tech"><i class="fab fa-microsoft"></i><span>Azure</span></div>
-      <div class="tech"><i class="fab fa-google"></i><span>GCP</span></div>
-      <div class="tech"><i class="fab fa-aws"></i><span>AWS</span></div>
-      <div class="tech"><i class="fas fa-code-branch"></i><span>GitHub Actions</span></div>
-      <div class="tech"><i class="fab fa-docker"></i><span>Docker</span></div>
-      <div class="tech"><i class="fas fa-network-wired"></i><span>Networking</span></div>
-      <div class="tech"><i class="fas fa-server"></i><span>Azure DevOps</span></div>
-      <div class="tech"><i class="fab fa-terraform"></i><span>Terraform</span></div>
+    <div class="tools-grid">
+      <div><i class="fab fa-azure"></i><span>Azure</span></div>
+      <div><i class="fab fa-aws"></i><span>AWS</span></div>
+      <div><i class="fab fa-google"></i><span>GCP</span></div>
+      <div><i class="fas fa-code-branch"></i><span>Terraform</span></div>
+      <div><i class="fab fa-github"></i><span>GitHub Actions</span></div>
+      <div><i class="fas fa-project-diagram"></i><span>AzDevOps</span></div>
+      <div><i class="fab fa-docker"></i><span>Docker</span></div>
+      <div><i class="fas fa-server"></i><span>Kubernetes (AKS)</span></div>
     </div>
   </section>
 
-  <section class="blogs" id="blogs">
-    <h2>DevOps Blogs (Coming Soon)</h2>
-    <p>Walkthroughs, real-world use cases, and practical DevOps content for every cloud engineer.</p>
+  <section id="community" class="section">
+    <h2>Community & Blogs</h2>
+    <p>Coming soon: a blog series and tutorials on real-world DevOps use‑cases, automation, CI/CD pipelines, and cloud infrastructure best practices.</p>
   </section>
 
-  <section class="contact" id="contact">
-    <h2>Stay Connected</h2>
+  <section id="contact" class="section">
+    <h2>Contact & Get In Touch</h2>
     <p>Email: <a href="mailto:contact@devonix.cloud">contact@devonix.cloud</a></p>
   </section>
 
   <footer>
-    <p>&copy; 2025 <strong>Devonix.cloud</strong> – Empowering the DevOps Community</p>
+    <p>&copy; 2025 Devonix Cloud • Built for DevOps community</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
