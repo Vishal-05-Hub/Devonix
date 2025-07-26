@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Devonix.cloud - Build. Automate. Scale.</title>
-  <link rel="stylesheet" href="style.css"/>
+  <meta charset="UTF‑8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Devonix.cloud</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
 </head>
 <body>
   <nav class="navbar">
-    <div class="logo"><span class="devonix">Devonix</span><span class="cloud">.cloud</span></div>
+    <div class="logo">Devonix.<span class="blue">cloud</span></div>
     <ul class="nav-links">
       <li><a href="#about">About Me</a></li>
-      <li><a href="#tech-stack">Tech Stack</a></li>
+      <li><a href="#stack">Tech Stack</a></li>
       <li><a href="#blogs">Blogs</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
@@ -19,74 +20,49 @@
 
   <header class="hero">
     <h1>Build. Automate. Scale.</h1>
-    <p class="subtitle">Cloud native DevOps solutions for modern engineers</p>
-    <a href="#blogs" class="blog-button">Read Blogs</a>
+    <p>Cloud native DevOps solutions for modern engineers</p>
+    <a href="#blogs" class="btn">Read Blogs</a>
   </header>
 
-  <section class="about-section" id="about">
-    <div class="about-content">
-      <div class="about-img">
-        <img src="avatar.png" alt="Profile" class="profile-pic"/>
-      </div>
-      <div class="about-text">
-        <h2>About Me</h2>
-        <p>
-          I’m a Senior DevOps Engineer with primary experience in Azure, proficiency in GCP and AWS. I specialize in scalable and secure cloud infrastructure, CICD pipelines, security, and Kubernetes platforms.<br><br>
-          This platform is my initiative to give back—delivering practical DevOps content for real-world use cases.
-        </p>
-      </div>
+  <section id="about" class="about">
+    <div class="avatar"></div>
+    <div class="about-text">
+      <h2>About Me</h2>
+      <p>I'm a Senior DevOps Engineer with expertise in Azure (primary), AWS, and GCP. I specialize in scalable infrastructure, CI/CD pipelines, security, and Kubernetes (AKS).</p>
+      <p>This platform is my initiative to give back — practical DevOps content for real-world use cases.</p>
     </div>
   </section>
 
-  <section class="tech-stack-section" id="tech-stack">
+  <section id="stack" class="stack">
     <h2>Tech Stack</h2>
-    <div class="tech-icons">
-      <div class="tech-item">
-        <img src="azure.svg" alt="Azure"/>
-        <div>Azure</div>
-      </div>
-      <div class="tech-item">
-        <img src="gcp.svg" alt="Google Cloud"/>
-        <div>Azure DV</div>
-      </div>
-      <div class="tech-item">
-        <img src="aws.svg" alt="AWS"/>
-        <div>Networking</div>
-      </div>
-      <div class="tech-item">
-        <img src="github-actions.svg" alt="GitHub Actions"/>
-        <div>Terraform</div>
-      </div>
-      <div class="tech-item">
-        <img src="docker.svg" alt="Docker"/>
-        <div>Docker</div>
-      </div>
-      <div class="tech-item">
-        <img src="terraform.svg" alt="Terraform"/>
-        <div>GitHub Actions</div>
-      </div>
+    <div class="stack-grid">
+      <div class="stack-item"><img src="icons/azure.svg" alt="Azure" /><span>Azure</span></div>
+      <div class="stack-item"><img src="icons/google_cloud.svg" alt="GCP" /><span>GCP</span></div>
+      <div class="stack-item"><img src="icons/aws.svg" alt="AWS" /><span>AWS</span></div>
+      <div class="stack-item"><img src="icons/github_actions.svg" alt="GitHub Actions" /><span>GitHub Actions</span></div>
+      <div class="stack-item"><img src="icons/docker.svg" alt="Docker" /><span>Docker</span></div>
+      <div class="stack-item"><img src="icons/terraform.svg" alt="Terraform" /><span>Terraform</span></div>
+      <div class="stack-item"><img src="icons/kubernetes.svg" alt="Kubernetes" /><span>Kubernetes (AKS)</span></div>
+      <div class="stack-item"><img src="icons/networking.svg" alt="Networking" /><span>Networking</span></div>
     </div>
   </section>
 
-  <section class="blogs-section" id="blogs">
+  <section id="blogs" class="blogs">
     <h2>DevOps Blogs (Coming Soon)</h2>
-    <div class="blog-card">
-      <div class="blog-info">
-        <div class="blog-title"><span class="icon">📝</span> DevOps Blogs (Coming Soon)</div>
-        <p>Walkthroughs, real-world use cases, and practical DevOps content for cloud engineers.</p>
+    <div class="blogs-container">
+      <div class="blog-box">
+        <h3>DevOps Blogs (Coming Soon)</h3>
+        <p>Walkthroughs, real‑world use cases, and practical DevOps content every cloud engineer needs.</p>
       </div>
       <div class="contact-box">
-        <span class="icon">✉️</span>
-        <div>
-          <div>Stay Connected</div>
-          <a href="mailto:contact@devonix.cloud">contact@devonix.cloud</a>
-        </div>
+        <h3>Stay Connected</h3>
+        <p><a href="mailto:contact@devonix.cloud">contact@devonix.cloud</a></p>
       </div>
     </div>
   </section>
 
   <footer>
-    © 2025 Devonix.cloud – Empowering the DevOps Community
+    <p>&copy; 2025 <strong>Devonix.cloud</strong> – Empowering the DevOps Community</p>
   </footer>
 </body>
 </html>
